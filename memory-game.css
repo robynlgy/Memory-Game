@@ -1,0 +1,81 @@
+/* you can add to or change this. */
+html{
+  background-color:#fcf9e3b5;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#4b5a33;
+  text-align: center;
+}
+
+h1{
+  font-size:5rem;
+  margin:1rem;
+}
+
+.hide {
+  display:none;
+}
+
+/* ======= Game Board =======*/
+
+#game{
+  margin:0 2%;
+  justify-content: center;
+}
+
+/* ======= Game Cards ======*/
+
+#game div {
+  border: 1px solid #4b5a33;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 10%;
+}
+
+#game div:hover{
+  box-shadow: 0px 0px 5px #718355;
+}
+
+/* ======= Buttons ======*/
+
+button {
+  display:inline-block;
+  color:#4b5a33;
+  background-color:#e6ebdc;
+  border:1px solid #4b5a33;
+  border-radius:5px;
+  font-size:1rem;
+  padding:15px;
+  margin:0 10px 20px 0;
+}
+button:hover{
+  box-shadow: 0px 0px 2px #718355;
+  background-color:#f9fff0;
+}
+
+a{
+  text-decoration: none;
+  color:#4b5a33;
+}
+
+#score{
+  font-size:2.5rem;
+  padding: 15px;
+}
+
+
+@media(min-width:1000px){
+  #game div{
+    width:150px;
+    height:150px;
+  }
+  #game {
+    margin: 0 10%;
+  }
+  h1{
+    font-size:6rem;
+    margin: 3rem;
+  }
+}
+
